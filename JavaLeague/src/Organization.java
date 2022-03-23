@@ -11,6 +11,13 @@
 		super(name, number, createdAt);
 		this.website=website;
 		
+		
+		public String getWebsite() {
+		return website;
+	}
+	public void setWebsite(String website) {
+		this.website = website;
+	}
 		@Override
 		public String toString() {
 			return "Organization [website= "+ website+"]";
