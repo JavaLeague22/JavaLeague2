@@ -13,11 +13,24 @@ public class Person {
 		this.DOB = DOB;
 	}
 
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public SimpleDateFormat getDOB() {
+		return DOB;
+	}
+
+	public void setDOB(SimpleDateFormat dOB) {
+		DOB = dOB;
+	}
+
 	@Override
 	public String toString() {
 		return "Person [email=" + email + ", DOB=" + DOB + "]";
 	}
-	
-	System.output.println("Batman: 1st attempt to change code. 1242");
-
 }
