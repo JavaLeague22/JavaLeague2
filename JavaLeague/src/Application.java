@@ -12,7 +12,7 @@ public class Application {
 		
 		Scanner input = new Scanner(System.in);
 		
-		ArrayList<String> Menu = new ArrayList<String>();
+		ArrayList<String> Contacts = new ArrayList<String>();
 		
 		//placeholders for methods
 		/*addMethod();
