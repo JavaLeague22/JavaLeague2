@@ -1,7 +1,7 @@
 //Anatalio
 import java.util.Date;
 
-public class Contact {
+public abstract class Contact {
 
 	protected String name;
 	protected String contactNumber;
@@ -14,10 +14,7 @@ public class Contact {
 
 	}
 
-	public void isNumberValid(String numberToCheck) {
-		// method to check if contactNumber String has 12 characters
-
-	}
+	public abstract void isNumberValid(String numberToCheck);
 
 	@Override
 	public String toString() {
