@@ -24,7 +24,11 @@ public class Application {
 		}
 		
 		Scanner key = new Scanner(System.in);
+		
+		//User Input
 		String query = key.nextLine();
+		
+		//Loops through HashMap for equivalent names / and prints equivalent keys with matching names
 		for(int j = 0; j < hashContactList.size(); j++) {
 			if(query.equalsIgnoreCase(hashContactList.get(j).getName())); {
 				System.out.println(j + "." + hashContactList.get(j).getName()));
