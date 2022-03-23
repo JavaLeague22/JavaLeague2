@@ -5,6 +5,8 @@ public class Application {
 		
 		//placeholder for add method
 		addMethod();
+		
+		//adding another comment
 
 	}
 
