@@ -1,4 +1,3 @@
-// Bailey
 
 import java.text.SimpleDateFormat;
 
@@ -24,7 +23,7 @@ public class Person {
 	public SimpleDateFormat getDOB() {
 		return DOB;
 	}
-
+	
 	public void setDOB(SimpleDateFormat dOB) {
 		DOB = dOB;
 	}
