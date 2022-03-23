@@ -1,5 +1,8 @@
 
-//Anatalio
+public class Contact {
+
+
+
 import java.util.Date;
 
 public abstract class Contact {
@@ -21,3 +24,4 @@ public abstract class Contact {
 	public String toString() {
 		return "Contact [name= " + name + ", contactNumber= " + contactNumber + "]";
 	}
+
