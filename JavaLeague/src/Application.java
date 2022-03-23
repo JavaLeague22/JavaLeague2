@@ -1,4 +1,4 @@
-// Chelsea
+// Chelsea, Shafir
 public class Application {
 
 }
