@@ -3,11 +3,24 @@ public class Application {
 
 	public static void main(String[] args) {
 		
-		//placeholder for add method
-		addMethod();
 		
-		//adding another comment
+		ArrayList<String> contactList = new ArrayList<String>();
+		
+		//placeholders for menu methods
+		addMethod();
+		listMethod();
+		countMethod();
+		infoMethod();
+		deleteMethod();
+		searchMethod();
+		exitMethod();
+		
+		//
+		do {
+		//run method menu until the exit option is chosen
+
 
 	}
 
+}
 }
