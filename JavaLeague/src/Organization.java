@@ -1,3 +1,4 @@
+
 	/*Author: Sushil
 	 * Date: 23 March 2022
 	 *Description: Created the child class name organization and inherited from user class named contact
@@ -25,3 +26,8 @@
 }
 
 	 
+
+// Sushil
+public class Organization {
+
+}
