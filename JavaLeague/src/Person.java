@@ -7,7 +7,7 @@ public class Person {
 	private SimpleDateFormat DOB = new SimpleDateFormat("dd/mm/yyyy");
 
 	Person(String email, SimpleDateFormat DOB) {
-		super(name, contactNumber);
+		//super(name, contactNumber);
 		this.email = email;
 		this.DOB = DOB;
 	}
