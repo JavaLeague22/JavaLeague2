@@ -1,8 +1,4 @@
 
-public class Contact {
-
-
-
 import java.util.Date;
 
 public abstract class Contact {
