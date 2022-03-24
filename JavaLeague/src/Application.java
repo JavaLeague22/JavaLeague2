@@ -122,16 +122,22 @@ public class Application {
 			
 		if (userInput == 1) {
 				//insert add method
+			Application.add();
 		} else if (userInput == 2) {
 				//insert list method
+			Application.list();
 		} else if (userInput == 3) {
 				//insert count method
+			Application.count();
 		} else if (userInput == 4) {
 				//insert info method
+			Application.info();
 		} else if (userInput == 5) {
 				//insert delete method
+			Application.delete():
 		} else if (userInput == 6) {
 				//insert search method
+			Application.search();
 		} else if (userInput == 7) {
 			System.out.println("Thank you. Have a Nice Day!");
 		} else {
