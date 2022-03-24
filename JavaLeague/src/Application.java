@@ -114,19 +114,7 @@ public class Application {
 		
 		
 		Scanner input = new Scanner(System.in);
-		
-		ArrayList<String> Contacts = new ArrayList<String>();
-		
-		//placeholders for methods
-		/*addMethod();
-		listMethod();
-		countMethod();
-		infoMethod();
-		deleteMethod();
-		searchMethod();
-		*/
-		
-		
+					
 		System.out.println("Make a selection from the following menu");
 		
 		do {
