@@ -14,7 +14,7 @@ public abstract class Contact {
 
 	}
 //added comment to save4
-	public void isNumberValid(String numberToCheck) {
+	public static void isNumberValid(String numberToCheck) {
 				
 		if (numberToCheck.length()!=12) {
 			System.out.println("The contact number you have entered is invalid.");			
