@@ -1,12 +1,12 @@
+import java.util.Date;
 
-import java.text.SimpleDateFormat;
 
 public class Person extends Contact {
 
 	private String email;
-	private SimpleDateFormat DOB = new SimpleDateFormat("dd/mm/yyyy");
+	private Date DOB = new Date();
 
-	Person(String email, SimpleDateFormat DOB, String name, String contactNumber) {
+	Person(String email, Date DOB, String name, String contactNumber) {
 		super(name, contactNumber);
 		this.email = email;
 		this.DOB = DOB;
@@ -20,12 +20,12 @@ public class Person extends Contact {
 		this.email = email;
 	}
 
-	public SimpleDateFormat getDOB() {
+	public Date getDOB() {
 		return DOB;
 	}
 	
-	public void setDOB(SimpleDateFormat dOB) {
-		DOB = dOB;
+	public void setDOB(Date DOB) {
+		DOB = DOB;
 	}
 
 	@Override
