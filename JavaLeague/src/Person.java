@@ -30,6 +30,6 @@ public class Person extends Contact {
 
 	@Override
 	public String toString() {
-		return name + "[phoneNumber=" contactNumber+", email=" + email + ", DOB=" + DOB + "]";
+		return "[name = "+name+",honeNumber=" contactNumber+", email=" + email + ", DOB=" + DOB + "]";
 	}
 }
