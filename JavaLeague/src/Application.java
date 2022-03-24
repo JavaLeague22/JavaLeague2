@@ -59,7 +59,7 @@ public class Application {
 	static void list() {
 		int j = 0;
 		for(Contact i : contactList) {
-			System.out.println(contactList.indexOf(i) + ":" + contactList.get(j).name);
+			System.out.println(contactList.indexOf(i) + ":" + contactList.get(j).getName(j));
 		}
 	}
 	
