@@ -20,8 +20,15 @@ public class Application {
 		System.out.println("Do you want to add a person, or Organization. Enter 1 for Person, 2 for Organization.");
 		int choice = key.nextInt();
 		if(choice == 1) {
+			System.out.println("Enter the name.");
+			String name = key.nextLine();
+			key.nextLine();
+			System.out.println("Enter the contact number.");
+			String contactNumber = key.nextLine();
+			Contact.isNumberValid(contactNumber);
 			System.out.println("Enter the email.");
 			String email = key.nextLine();
+			key.nextLine();
 			System.out.println("Enter the contacts's date of birth in 'dd/mm/yyyy' format.");
 			String date = key.nextLine();
 			Date DOB=null;
@@ -32,16 +39,13 @@ public class Application {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println("Enter the name.");
-			String name = key.nextLine();
-			System.out.println("Enter the contact number.");
-			String contactNumber = key.nextLine();
+			
 			Person contact = new Person(email, DOB, name, contactNumber);
 			contactList.add(contact);
 		} else if(choice == 2){
 			System.out.println("Enter the name.");
 			String name = key.nextLine();
-			userInput = key.nextLine();
+			key.nextLine();
 			System.out.println("Enter the contact number.");
 			String number = key.nextLine();
 			System.out.println("Enter the website.");
@@ -119,7 +123,7 @@ public class Application {
 		do {
 		//display menu until the exit option is chosen
 			System.out.println("1.Add 2.List 3.Count 4.Info 5.Delete 6.Search 7.Exit");
-			int userInput = input.nextInt();
+			userInput = input.nextInt();
 			
 		if (userInput == 1) {
 				//insert add method
@@ -135,7 +139,7 @@ public class Application {
 			Application.info();
 		} else if (userInput == 5) {
 				//insert delete method
-			Application.delete():
+			Application.delete();
 		} else if (userInput == 6) {
 				//insert search method
 			Application.search();
@@ -153,10 +157,10 @@ public class Application {
 			//	System.out.println("No file exists");
 		
 			
-			
+			key.close();
 			input.close();
 }
-	key.close();
+	
 }
 
 
