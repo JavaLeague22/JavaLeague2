@@ -1,3 +1,4 @@
+
 	/*Author: Sushil
 	 * Date: 23 March 2022
 	 *Description: Created the child class name organization and inherited from user class named contact
@@ -7,8 +8,13 @@
 	private String website;
 	
 	//created constructor for Organization with one private attributes
+
 	 Organization(String name, String contactNumber) {
 		super(name, contactNumber);
+
+	 Organization(String name, String number, String website) {
+		super(name, number, createdAt);
+
 		this.website=website;
 		
 	 }
@@ -25,3 +31,4 @@
 }
 
 	 
+
