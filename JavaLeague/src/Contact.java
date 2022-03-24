@@ -13,11 +13,20 @@ public abstract class Contact {
 		createdAt = new Date();
 
 	}
-
-	public abstract void isNumberValid(String numberToCheck);
+//added comment to save4
+	public void isNumberValid(String numberToCheck) {
+				
+		if (numberToCheck.length()!=12) {
+			System.out.println("The contact number you have entered is invalid.");			
+		}else {
+			//else just continue as normal
+		}		
+		
+	}
 
 	@Override
 	public String toString() {
 		return "Contact [name= " + name + ", contactNumber= " + contactNumber + "]";
 	}
 
+}
