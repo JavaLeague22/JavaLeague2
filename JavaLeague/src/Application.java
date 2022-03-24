@@ -39,12 +39,10 @@ public class Application {
 		 
 	}
 	
-}
+
 //GitHub turns my brains to mush
 
 //Chelsea
-
-public class Application {
 
 	public static void main(String[] args) {
 		
