@@ -41,6 +41,7 @@ public class Application {
 		} else if(choice == 2){
 			System.out.println("Enter the name.");
 			String name = key.nextLine();
+			userInput = key.nextLine();
 			System.out.println("Enter the contact number.");
 			String number = key.nextLine();
 			System.out.println("Enter the website.");
