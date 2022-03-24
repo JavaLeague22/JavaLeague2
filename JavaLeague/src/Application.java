@@ -132,7 +132,8 @@ public class Application {
 		do {
 		//display menu until the exit option is chosen
 			System.out.println("1.Add 2.List 3.Count 4.Info 5.Delete 6.Search 7.Exit");
-		
+			int userInput = input.nextInt();
+			
 		if (userInput == 1) {
 				//insert add method
 		} else if (userInput == 2) {
