@@ -24,7 +24,14 @@ public class Application {
 			String email = key.nextLine();
 			System.out.println("Enter the contacts's date of birth in 'dd/mm/yyyy' format.");
 			String date = key.nextLine();
-			Date DOB = new SimpleDateFormat("dd/mm/yyyy").parse(date);
+			Date DOB=null;
+			
+			try {
+				DOB = new SimpleDateFormat("dd/mm/yyyy").parse(date);
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			System.out.println("Enter the name.");
 			String name = key.nextLine();
 			System.out.println("Enter the contact number.");
@@ -98,12 +105,13 @@ public class Application {
 		 
 	}
 	
-}
+
 //GitHub turns my brains to mush
 
 	public static void main(String[] args) {
 		
-		int userInput;
+		int userInput=0;
+		
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -125,8 +133,6 @@ public class Application {
 		//display menu until the exit option is chosen
 			System.out.println("1.Add 2.List 3.Count 4.Info 5.Delete 6.Search 7.Exit");
 		
-		} while (userInput <= 6);
-		
 		if (userInput == 1) {
 				//insert add method
 		} else if (userInput == 2) {
@@ -145,7 +151,7 @@ public class Application {
 			System.out.println("Invalid selection");
 		
 		}
-			
+	} while (userInput <= 6);	
 			//try (FileNotFoundException a) {
 				
 				
