@@ -149,6 +149,7 @@ public class Application {
 			
 			input.close();
 }
+	key.close();
 }
 
 
