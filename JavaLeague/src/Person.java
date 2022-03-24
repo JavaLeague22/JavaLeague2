@@ -1,13 +1,13 @@
 
 import java.text.SimpleDateFormat;
 
-public class Person {
+public class Person extends Contact {
 
 	private String email;
 	private SimpleDateFormat DOB = new SimpleDateFormat("dd/mm/yyyy");
 
-	Person(String email, SimpleDateFormat DOB) {
-		//super(name, contactNumber);
+	Person(String email, SimpleDateFormat DOB, String name, String contactNumber) {
+		super(name, contactNumber);
 		this.email = email;
 		this.DOB = DOB;
 	}
