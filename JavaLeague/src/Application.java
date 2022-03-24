@@ -42,40 +42,7 @@ public class Application {
 }
 //GitHub turns my brains to mush
 
-
-public class Application {
-
-	public static void main(String[] args) {
-		
-		
-		ArrayList<String> contactList = new ArrayList<String>();
-		
-		//placeholders for menu methods
-		addMethod();
-		listMethod();
-		countMethod();
-		infoMethod();
-		deleteMethod();
-		searchMethod();
-		exitMethod();
-		
-		//
-		do {
-		//run method menu until the exit option is chosen
-
-
-	}
-
-}
-}
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
-import java.io.FileReader;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-
+//Chelsea
 
 public class Application {
 
