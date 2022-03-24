@@ -47,10 +47,11 @@ public class Application {
 			String name = key.nextLine();
 			key.nextLine();
 			System.out.println("Enter the contact number.");
-			String number = key.nextLine();
+			String contactNumber = key.nextLine();
+			Contact.isNumberValid(contactNumber);
 			System.out.println("Enter the website.");
 			String website = key.nextLine();
-			Organization contact = new Organization(name, number, website);
+			Organization contact = new Organization(name, contactNumber, website);
 			contactList.add(contact);
 		}
 	}
