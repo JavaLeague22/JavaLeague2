@@ -91,8 +91,6 @@ public class Application {
 			hashContactList.put(i, contactList.get(i));
 		}
 		
-		Scanner key = new Scanner(System.in);
-		
 		//User Input
 		String query = key.nextLine();
 		
