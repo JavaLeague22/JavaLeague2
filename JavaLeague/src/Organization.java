@@ -7,8 +7,8 @@
 	private String website;
 	
 	//created constructor for Organization with one private attributes
-	 Organization(String name, String number, String createdAt) {
-		super(name, number, createdAt);
+	 Organization(String name, String contactNumber) {
+		super(name, contactNumber);
 		this.website=website;
 		
 	 }
