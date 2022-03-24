@@ -19,7 +19,7 @@ public abstract class Contact {
 		if (numberToCheck.length()!=12) {
 			System.out.println("The contact number you have entered is invalid.");			
 		}else {
-			//else just continue as normal
+			System.out.println("Please enter a valid contact number")
 		}		
 		
 	}
