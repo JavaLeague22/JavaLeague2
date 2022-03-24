@@ -8,8 +8,10 @@
 	private String website;
 	
 	//created constructor for Organization with one private attributes
-	 Organization(String name, String number, String createdAt) {
-		super(name, number, createdAt);
+
+	 Organization(String name, String contactNumber, String website) {
+		super(name, contactNumber);
+
 		this.website=website;
 		
 	 }
@@ -27,7 +29,3 @@
 
 	 
 
-// Sushil
-public class Organization {
-
-}
