@@ -100,7 +100,7 @@ public class Application {
 		}
 		
 		//User Input
-		System.out.println("Enter the name of the contact that you want to find")
+		System.out.println("Enter the name of the contact that you want to find");
 		String query = key.nextLine();
 		
 		//Loops through HashMap for equivalent names / and prints equivalent keys with matching names

@@ -11,7 +11,6 @@ public abstract class Contact {
 		this.name = name;
 		this.contactNumber = contactNumber;
 		createdAt = new Date();
-
 	}
 //added comment to save4
 	public static void isNumberValid(String numberToCheck) {
@@ -24,6 +23,24 @@ public abstract class Contact {
 		
 	}
 
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getContactNumber() {
+		return contactNumber;
+	}
+	public void setContactNumber(String contactNumber) {
+		this.contactNumber = contactNumber;
+	}
+	public Date getCreatedAt() {
+		return createdAt;
+	}
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
+	}
 	@Override
 	public String toString() {
 		return "Contact [name= " + name + ", contactNumber= " + contactNumber + "]";
