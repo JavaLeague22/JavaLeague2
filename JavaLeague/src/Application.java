@@ -40,8 +40,8 @@ public class Application {
 				e.printStackTrace();
 			}
 			
-			Person contact = new Person(email, DOB, name, contactNumber);
-			contactList.add(contact);
+			 contactList.add(new Person(email, DOB, name, contactNumber));
+			
 		} else if(choice == 2){
 			System.out.println("Enter the name.");
 			String name = key.nextLine();
@@ -51,15 +51,16 @@ public class Application {
 			Contact.isNumberValid(contactNumber);
 			System.out.println("Enter the website.");
 			String website = key.nextLine();
-			Organization contact = new Organization(name, contactNumber, website);
-			contactList.add(contact);
+			contactList.add(new Organization(name, contactNumber, website));
 		}
 	}
 	//list method
 	static void list() {
 		int j = 0;
 		for(Contact i : contactList) {
+			System.out.println(contactList.get(j));
 			System.out.println(contactList.indexOf(i) + ":" + contactList.get(j).getName());
+			j++;
 		}
 	}
 	
@@ -71,6 +72,7 @@ public class Application {
 	//info method
 	static void info() {
 		Application.list();
+		System.out.println("Enter the ID of the contact that you want");
 		int input = key.nextInt();
 		if(contactList.contains(contactList.get(input))) {
 			System.out.println(contactList.get(input));
@@ -98,6 +100,7 @@ public class Application {
 		}
 		
 		//User Input
+		System.out.println("Enter the name of the contact that you want to find")
 		String query = key.nextLine();
 		
 		//Loops through HashMap for equivalent names / and prints equivalent keys with matching names
